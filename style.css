@@ -78,7 +78,7 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
+texture}
 
 .bloc-bg-texture::before {
     content: "";
@@ -763,7 +763,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
 }
 
 .bgc-dark-slate-blue {
