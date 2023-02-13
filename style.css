@@ -90,10 +90,10 @@ texture}
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -301,12 +301,18 @@ texture}
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+    
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
+    display: flex;
 }
 
 .navbar-brand img[src$=svg] {
@@ -390,7 +396,7 @@ texture}
     .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
-        display: inline-block;
+        display: inline;
     }
     .nav-center .site-navigation {
         position: relative;
