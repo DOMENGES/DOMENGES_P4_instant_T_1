@@ -31,6 +31,15 @@ section,
 summary {
     display: block
 }
+figcaption{
+    font-size: 20px;
+    font-style: oblique;
+}
+cite{
+    font-size : 17px;
+    color:#666;
+}
+
 
 audio,
 canvas,
@@ -110,9 +119,9 @@ svg:not(:root) {
     overflow: hidden
 }
 
-figure {
+/*figure {
     margin: 1em 40px
-}
+}*/
 
 hr {
     height: 0;
@@ -255,7 +264,7 @@ th {
     a[href^="#"]:after {
         content: ""
     }
-    blockquote,
+    /*blockquote,*/
     pre {
         border: 1px solid #999;
         page-break-inside: avoid
@@ -1422,9 +1431,9 @@ a:focus {
     outline-offset: -2px
 }
 
-figure {
+/*figure {
     margin: 0
-}
+}*/
 
 img {
     vertical-align: middle
@@ -1859,18 +1868,17 @@ abbr[title] {
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 17.5px;
     /*border-left: 5px solid #eee*/
 }
 
-blockquote p {
-   font-size: 20px; 
-}
 
 blockquote ol:last-child,
 blockquote p:last-child,
 blockquote ul:last-child {
-    margin-bottom: 0
+    font-size: 22px;
+    font-style:oblique;
+    text-align: justify;
+    color: #777
 }
 
 blockquote .small,
@@ -2072,6 +2080,12 @@ pre code {
     padding-right: 15px;
     padding-left: 15px
 }
+.col-sm-12 p:last-child {
+font-size: 20px;
+font-weight: 600;
+text-align: justify;
+}
+
 
 .col-xs-1,
 .col-xs-10,
@@ -7028,6 +7042,7 @@ button.list-group-item-danger.active:hover {
     border-color: #ddd;
     border-color: rgba(0, 0, 0, .15)
 }
+
 
 .well-lg {
     padding: 24px;
