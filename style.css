@@ -283,7 +283,7 @@ texture}
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+.présentation h1 {
     font-size: 58px;
     font-weight: 600;
     color: #FFFFFF;
@@ -373,7 +373,7 @@ texture}
     font-size:25px;
     font-weight: 600;
 }
-#bloc-8 p {
+footer p {
     font-size:25px;
     font-weight: 600;
 }
@@ -600,7 +600,9 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: 2px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -932,8 +934,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
     .b-parallax {
         background-attachment: scroll;

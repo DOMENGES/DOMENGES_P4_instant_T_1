@@ -1878,7 +1878,7 @@ blockquote ul:last-child {
     font-size: 22px;
     font-style:oblique;
     text-align: justify;
-    color: #777
+    color: #5E5E5E
 }
 
 blockquote .small,
@@ -1887,7 +1887,7 @@ blockquote small {
     display: block;
     font-size: 80%;
     line-height: 1.42857143;
-    color: #777
+    color: #5E5E5E
 }
 
 blockquote .small:before,
