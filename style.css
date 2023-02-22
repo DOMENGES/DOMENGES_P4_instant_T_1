@@ -29,7 +29,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    /*width: 100%;*/
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -73,6 +73,10 @@ a:hover {
     background-size: auto!important;
 }
 
+.img-responsive {
+min-width: 100%;
+}
+
 .bg-repeat {
     background: repeat;
 }
@@ -91,10 +95,29 @@ texture}
     right: 0;
 }
 
-/*.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}*/
+blockquote
+{
+    border-left:hidden!important;
+}
+
+blockquote p,
+figcaption
+{
+    font-size: 18px!important;
+}
+
+.what-i-do p{
+    font-size:18px!important;
+}
+
+.col-sm-12 h1{
+    font-weight: 600;
+}
+.col-sm-12 h2 p{
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -261,7 +284,7 @@ texture}
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
+ fset-lg   color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
 
@@ -371,8 +394,18 @@ texture}
     z-index: 2;
 }
 .mg-md {
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size:25px;
     font-weight: 600;
+}
+.col-sm-6 p
+{font-size:16px; 
+font-weight: 600;
+margin-left: 10px;
+/*text-align: justify;*/}
+.col-sm-6{
+  width:40%;  
 }
 footer p {
     font-size:25px;
@@ -405,7 +438,7 @@ footer p {
     .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
-        display: inline;
+        display: flex;
     }
     .nav-center .site-navigation {
         position: relative;
@@ -452,10 +485,9 @@ nav .caret {
     float: right;
 }
 
-.mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+/*.mg-md {
+    
+}*/
 
 .mg-lg {
     margin-top: 10px;
@@ -674,9 +706,10 @@ a {
     color: #575757;
 }
 
-.container {
-    max-width: 1000px;
-}
+
+/*.container {
+    max-width: 95%;
+}*/
 
 .hero-bloc-text {
     font-size: 38px;
@@ -712,7 +745,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    /*max-width: 600px;*/
     margin: auto auto auto auto;
 }
 
@@ -746,6 +779,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: none!important;
 }
 
 .med-width-whitespace {
