@@ -94,6 +94,11 @@ texture}
     left: 0;
     right: 0;
 }
+.intro_services{
+    font-size: 25px;
+    color:#000000;
+    font-weight: 600;
+}
 
 blockquote
 {
@@ -104,6 +109,12 @@ blockquote p,
 figcaption
 {
     font-size: 18px!important;
+    color:#030303!important;
+}
+
+cite
+{
+    color:#030303!important;
 }
 
 .what-i-do p{
@@ -221,6 +232,7 @@ figcaption
 .l-bloc {
     color: rgba(0, 0, 0, .5);
 }
+
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -734,10 +746,7 @@ p {
     font-size: 11px;
 }
 
-.intro_services
-{
-    font-size: 25px;
-}
+
 .web_design, .strategie, .illustrations
 {
     font-size: 20px;
@@ -813,6 +822,7 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
+
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
