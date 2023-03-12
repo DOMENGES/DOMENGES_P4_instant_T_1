@@ -83,7 +83,7 @@ min-width: 100%;
 
 .bg-t-edge {
     background: top no-repeat;
-texture}
+}
 
 .bloc-bg-texture::before {
     content: "";
@@ -296,7 +296,7 @@ cite
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
- fset-lg   color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
 
@@ -788,7 +788,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
-    line-height: none!important;
+    line-height:0!important;
 }
 
 .med-width-whitespace {
