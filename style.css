@@ -788,7 +788,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
-    line-height:0!important;
+    /*line-height:0!important;*/
 }
 
 .med-width-whitespace {
